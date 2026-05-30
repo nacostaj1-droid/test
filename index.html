@@ -9,33 +9,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
         
-        body {
-            font-family: 'Inter', system-ui, sans-serif;
-        }
-        
-        .heading-font {
-            font-family: 'Space Grotesk', system-ui, sans-serif;
-            font-weight: 600;
-        }
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .heading-font { font-family: 'Space Grotesk', system-ui, sans-serif; font-weight: 600; }
 
-        .nav-scrolled {
-            background-color: rgba(15, 23, 42, 0.95);
-            backdrop-filter: blur(12px);
-        }
+        .nav-scrolled { background-color: rgba(15, 23, 42, 0.95); backdrop-filter: blur(12px); }
 
-        .section-header {
-            font-size: 3.25rem;
-            line-height: 1.05;
-            font-weight: 600;
-        }
+        .section-header { font-size: 3.25rem; line-height: 1.05; font-weight: 600; }
 
-        .service-card {
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        
-        .service-card:hover {
-            transform: translateY(-4px);
-        }
+        .service-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .service-card:hover { transform: translateY(-4px); }
 
         .forge-gradient {
             background: linear-gradient(90deg, #F97316, #FB923C);
@@ -54,7 +36,6 @@
     <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/90 backdrop-blur-lg border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <!-- Logo -->
                 <div class="flex items-center gap-x-3">
                     <div class="w-9 h-9 bg-orange-500 rounded-xl flex items-center justify-center">
                         <i class="fas fa-hammer text-white text-2xl"></i>
@@ -71,12 +52,11 @@
                     <a href="#contact" class="hover:text-orange-400 transition-colors">Contact</a>
                 </div>
 
-                <a href="#contact" 
+                <a href="https://calendly.com/forgehorizonconsulting-info/30min" target="_blank"
                    class="hidden md:block px-6 py-3 bg-white text-slate-950 font-semibold text-sm rounded-2xl hover:bg-orange-400 hover:text-white transition-all">
                     Book a Strategy Call
                 </a>
                 
-                <!-- Mobile -->
                 <button class="md:hidden w-10 h-10 flex items-center justify-center" id="mobile-menu-btn">
                     <i class="fas fa-bars text-xl"></i>
                 </button>
@@ -101,7 +81,7 @@
             </p>
             
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#contact" 
+                <a href="https://calendly.com/forgehorizonconsulting-info/30min" target="_blank"
                    class="px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-2xl flex items-center justify-center gap-x-3 transition-all text-lg">
                     Book Your Strategy Call
                     <i class="fas fa-arrow-right"></i>
@@ -136,40 +116,36 @@
         </div>
         
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Card 1 -->
             <div class="service-card bg-slate-900 border border-slate-800 rounded-3xl p-8">
                 <div class="w-12 h-12 bg-orange-500/10 rounded-2xl flex items-center justify-center mb-6">
                     <i class="fas fa-lightbulb text-orange-400 text-2xl"></i>
                 </div>
                 <h3 class="font-semibold text-xl mb-3">Strategic Transformation Design</h3>
-                <p class="text-slate-400">Custom implementation programs and roadmaps tailored to your business goals, from client/employee onboarding to full enterprise modernization.</p>
+                <p class="text-slate-400">Custom implementation programs and roadmaps tailored to your business goals.</p>
             </div>
             
-            <!-- Card 2 -->
             <div class="service-card bg-slate-900 border border-slate-800 rounded-3xl p-8">
                 <div class="w-12 h-12 bg-orange-500/10 rounded-2xl flex items-center justify-center mb-6">
                     <i class="fas fa-robot text-orange-400 text-2xl"></i>
                 </div>
                 <h3 class="font-semibold text-xl mb-3">AI-Powered Automation</h3>
-                <p class="text-slate-400">Intelligent agents, predictive analytics, automated workflows, and self-service systems that dramatically reduce manual effort.</p>
+                <p class="text-slate-400">Intelligent agents, predictive analytics, automated workflows, and self-service systems.</p>
             </div>
             
-            <!-- Card 3 -->
             <div class="service-card bg-slate-900 border border-slate-800 rounded-3xl p-8">
                 <div class="w-12 h-12 bg-orange-500/10 rounded-2xl flex items-center justify-center mb-6">
                     <i class="fas fa-sync text-orange-400 text-2xl"></i>
                 </div>
                 <h3 class="font-semibold text-xl mb-3">End-to-End Implementation</h3>
-                <p class="text-slate-400">Full lifecycle project management, system integration, change management, and training for seamless adoption.</p>
+                <p class="text-slate-400">Full lifecycle project management, system integration, change management, and training.</p>
             </div>
             
-            <!-- Card 4 -->
             <div class="service-card bg-slate-900 border border-slate-800 rounded-3xl p-8">
                 <div class="w-12 h-12 bg-orange-500/10 rounded-2xl flex items-center justify-center mb-6">
                     <i class="fas fa-shield-alt text-orange-400 text-2xl"></i>
                 </div>
                 <h3 class="font-semibold text-xl mb-3">Process &amp; Compliance Optimization</h3>
-                <p class="text-slate-400">Streamlined operations, regulatory compliance automation, data optimization, and continuous improvement initiatives.</p>
+                <p class="text-slate-400">Streamlined operations, regulatory compliance automation, and continuous improvement.</p>
             </div>
         </div>
     </section>
@@ -181,14 +157,11 @@
                 <div class="md:col-span-7">
                     <span class="text-orange-400 text-sm font-semibold tracking-[3px]">THE FORGEHORIZON DIFFERENCE</span>
                     <h2 class="section-header mt-3 mb-8">Big-firm expertise.<br>Boutique execution.</h2>
-                    
                     <div class="space-y-6 text-lg text-slate-300">
                         <p>Led by a team with <span class="font-semibold text-white">10+ years of enterprise transformation experience</span> — including large-scale SaaS implementations at Boeing and leading staffing platforms.</p>
-                        
                         <p>We deliver the discipline and rigor of major consulting firms with the speed, creativity, and personal attention of a specialized boutique.</p>
                     </div>
                 </div>
-                
                 <div class="md:col-span-5 mt-10 md:mt-0">
                     <div class="bg-slate-950 border border-slate-700 rounded-3xl p-9">
                         <div class="space-y-6">
@@ -208,12 +181,11 @@
         </div>
     </section>
 
-    <!-- Results / Outcomes -->
+    <!-- Results -->
     <section class="max-w-5xl mx-auto px-6 py-20">
         <div class="text-center mb-12">
             <h2 class="text-4xl font-semibold tracking-tight">What you can expect</h2>
         </div>
-        
         <div class="grid md:grid-cols-3 gap-6">
             <div class="text-center p-8">
                 <div class="text-5xl font-semibold text-orange-400 mb-2">40-60%</div>
@@ -233,31 +205,21 @@
         </div>
     </section>
 
-    <!-- Final CTA -->
-    <section id="contact" class="max-w-3xl mx-auto px-6 py-20 text-center border-t border-slate-800">
-        <h2 class="text-5xl font-semibold tracking-tight mb-4">Ready to forge<br>the next level of performance?</h2>
-        <p class="text-xl text-slate-400 mb-10 max-w-md mx-auto">Let’s discuss how AI-powered implementation and transformation can accelerate your goals.</p>
+    <!-- Calendly Booking Section -->
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-20 border-t border-slate-800">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-semibold tracking-tight mb-4">Book Your Strategy Call</h2>
+            <p class="text-xl text-slate-400 max-w-md mx-auto">Pick a time that works for you — we’ll discuss how we can accelerate your goals.</p>
+        </div>
         
-        <form class="max-w-md mx-auto text-left space-y-4" onsubmit="event.preventDefault(); alert('Thank you! We will contact you within 24 hours to schedule your strategy call.');">
-            <input type="text" placeholder="Full Name" 
-                   class="w-full bg-slate-900 border border-slate-700 rounded-2xl px-6 py-4 text-white placeholder:text-slate-500 focus:outline-none focus:border-orange-500 transition-colors">
-            
-            <input type="email" placeholder="Work Email" 
-                   class="w-full bg-slate-900 border border-slate-700 rounded-2xl px-6 py-4 text-white placeholder:text-slate-500 focus:outline-none focus:border-orange-500 transition-colors">
-            
-            <input type="text" placeholder="Company" 
-                   class="w-full bg-slate-900 border border-slate-700 rounded-2xl px-6 py-4 text-white placeholder:text-slate-500 focus:outline-none focus:border-orange-500 transition-colors">
-            
-            <textarea placeholder="Tell us about your biggest operational or transformation challenges..." rows="4"
-                      class="w-full bg-slate-900 border border-slate-700 rounded-3xl px-6 py-4 text-white placeholder:text-slate-500 focus:outline-none focus:border-orange-500 transition-colors resize-y"></textarea>
-            
-            <button type="submit" 
-                    class="w-full py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-2xl transition-all text-lg mt-2">
-                Request Strategy Call
-            </button>
-        </form>
+        <!-- Calendly Inline Widget -->
+        <div class="calendly-inline-widget rounded-3xl overflow-hidden border border-slate-700 shadow-2xl" 
+             data-url="https://calendly.com/forgehorizonconsulting-info/30min" 
+             style="min-width:320px;height:700px;"></div>
         
-        <p class="text-xs text-slate-500 mt-6">Or email us directly at <a href="mailto:hello@forgehorizon.com" class="text-orange-400 hover:underline">hello@forgehorizon.com</a></p>
+        <p class="text-center text-xs text-slate-500 mt-8">
+            Or email us directly at <a href="mailto:info@forgehorizon.com" class="text-orange-400 hover:underline">info@forgehorizon.com</a>
+        </p>
     </section>
 
     <!-- Footer -->
@@ -268,8 +230,10 @@
         </div>
     </footer>
 
+    <!-- Calendly Script -->
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
     <script>
-        // Mobile menu + navbar scroll (unchanged)
         function init() {
             const mobileBtn = document.getElementById('mobile-menu-btn');
             if (mobileBtn) {
@@ -283,7 +247,6 @@
                         <button class="mt-8 text-sm border border-slate-700 px-8 py-3 rounded-full">Close</button>
                     `;
                     document.body.appendChild(menu);
-                    
                     menu.querySelector('button').addEventListener('click', () => menu.remove());
                     menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => menu.remove()));
                 });
@@ -291,14 +254,10 @@
             
             window.addEventListener('scroll', () => {
                 const nav = document.querySelector('nav');
-                if (window.scrollY > 50) {
-                    nav.classList.add('nav-scrolled');
-                } else {
-                    nav.classList.remove('nav-scrolled');
-                }
+                if (window.scrollY > 50) nav.classList.add('nav-scrolled');
+                else nav.classList.remove('nav-scrolled');
             });
         }
-        
         init();
     </script>
 </body>
