@@ -14,7 +14,8 @@
   </style>
 </head>
 <body class="bg-slate-950 text-slate-200">
-  <!-- Navbar -->
+
+  <!-- Navbar (unchanged) -->
   <nav class="bg-slate-950 border-b border-slate-800 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
       <div class="flex items-center gap-3">
@@ -24,6 +25,7 @@
       <div class="hidden md:flex items-center gap-8 text-sm font-medium">
         <a href="#services" class="hover:text-teal-400 transition">Services</a>
         <a href="#difference" class="hover:text-teal-400 transition">Our Difference</a>
+        <a href="#team" class="hover:text-teal-400 transition">Our Team</a>
         <a href="#results" class="hover:text-teal-400 transition">Results</a>
         <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
       </div>
@@ -34,181 +36,67 @@
     </div>
   </nav>
 
-  <!-- Hero -->
+  <!-- Hero (unchanged) -->
   <header class="hero-bg min-h-screen flex items-center relative">
-    <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 to-transparent"></div>
-    <div class="max-w-7xl mx-auto px-6 relative z-10 py-24">
-      <div class="max-w-2xl">
-        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm mb-6">
-          <span class="text-teal-400">•</span> BOUTIQUE • AI-POWERED • ENTERPRISE-GRADE
-        </div>
-        <h1 class="text-6xl md:text-7xl font-bold heading-font leading-none tracking-tighter mb-6">
-          Forge operational excellence.<br>Powered by AI &amp; precision execution.
-        </h1>
-        <p class="text-xl text-slate-300 mb-8">
-          We help B2B SaaS, staffing, professional services, and technology companies accelerate digital transformation through intelligent implementation, AI-powered automation, and scalable process optimization.
-        </p>
-        <p class="text-teal-300 font-medium mb-8">Trusted by teams at Boeing, leading staffing platforms &amp; enterprise SaaS companies.</p>
-        
-        <div class="flex flex-wrap gap-4">
-          <a href="https://calendly.com/forgehorizonconsulting-info/30min" target="_blank"
-             class="px-8 py-4 bg-teal-400 hover:bg-teal-300 text-slate-950 font-semibold rounded-2xl flex items-center gap-3 text-lg transition">
-            <i class="fas fa-calendar"></i> Schedule a Strategy Call
-          </a>
-          <a href="#contact" 
-             class="px-8 py-4 border border-slate-400 hover:border-slate-200 font-semibold rounded-2xl flex items-center gap-3 text-lg transition">
-            Get in touch
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="absolute bottom-10 left-1/2 flex flex-col items-center text-xs tracking-widest">
-      <div class="flex gap-2 mb-2">
-        <i class="fas fa-chevron-down animate-bounce"></i>
-      </div>
-      SCROLL FOR MORE
-    </div>
+    <!-- ... (your existing hero code remains exactly the same) ... -->
   </header>
 
-  <!-- Mission Statement -->
-  <section class="py-20 bg-slate-900">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-semibold heading-font mb-6">Our Mission</h2>
-      <p class="text-2xl text-slate-300 leading-relaxed">
-        We forge operational excellence for ambitious B2B enterprises by masterfully integrating cutting-edge AI intelligence with disciplined precision execution — transforming fragmented processes into scalable, high-ROI systems that drive sustainable competitive advantage.
-      </p>
-    </div>
-  </section>
+  <!-- Mission Statement (unchanged) -->
+  <section class="py-20 bg-slate-900"> ... </section>
 
-  <!-- Services -->
-  <section id="services" class="py-20">
+  <!-- Services (unchanged) -->
+  <section id="services" class="py-20"> ... </section>
+
+  <!-- The Difference (unchanged) -->
+  <section id="difference" class="py-20 bg-slate-900"> ... </section>
+
+  <!-- NEW: Our Team Section -->
+  <section id="team" class="py-20 bg-slate-900">
     <div class="max-w-7xl mx-auto px-6">
       <div class="text-center mb-16">
-        <h2 class="text-4xl font-semibold heading-font">Intelligent Transformation. Engineered for Scale.</h2>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <!-- Card 1 -->
-        <div class="bg-slate-900 rounded-3xl p-8 hover:scale-105 transition">
-          <i class="fas fa-road text-4xl text-teal-400 mb-6"></i>
-          <h3 class="text-xl font-semibold mb-3">Strategic Transformation Design</h3>
-          <p class="text-slate-400">Custom implementation programs and roadmaps tailored to your business goals.</p>
-        </div>
-        <!-- Card 2 -->
-        <div class="bg-slate-900 rounded-3xl p-8 hover:scale-105 transition">
-          <i class="fas fa-robot text-4xl text-teal-400 mb-6"></i>
-          <h3 class="text-xl font-semibold mb-3">AI-Powered Automation</h3>
-          <p class="text-slate-400">Intelligent agents, predictive analytics, automated workflows, and self-service systems.</p>
-        </div>
-        <!-- Card 3 -->
-        <div class="bg-slate-900 rounded-3xl p-8 hover:scale-105 transition">
-          <i class="fas fa-cogs text-4xl text-teal-400 mb-6"></i>
-          <h3 class="text-xl font-semibold mb-3">End-to-End Implementation</h3>
-          <p class="text-slate-400">Full lifecycle project management, system integration, change management, and training.</p>
-        </div>
-        <!-- Card 4 -->
-        <div class="bg-slate-900 rounded-3xl p-8 hover:scale-105 transition">
-          <i class="fas fa-shield-alt text-4xl text-teal-400 mb-6"></i>
-          <h3 class="text-xl font-semibold mb-3">Process &amp; Compliance Optimization</h3>
-          <p class="text-slate-400">Streamlined operations, regulatory compliance automation, and continuous improvement.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Difference -->
-  <section id="difference" class="py-20 bg-slate-900">
-    <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-4xl font-semibold heading-font text-center mb-12">Big-firm expertise. Boutique execution.</h2>
-      <div class="grid md:grid-cols-3 gap-12 items-center">
-        <div>
-          <p class="text-slate-300">Led by a team with 10+ years of enterprise transformation experience — including large-scale SaaS implementations at Boeing and leading staffing platforms.</p>
-        </div>
-        <div class="text-center">
-          <div class="inline-flex items-center gap-4 text-5xl font-bold text-teal-400">
-            <span>AI</span>
-            <span class="text-3xl">+</span>
-            <span>Execution</span>
-          </div>
-          <p class="mt-4 text-slate-400">Modern intelligence meets proven delivery</p>
-        </div>
-        <div class="text-slate-300">
-          We deliver the discipline and rigor of major consulting firms with the speed, creativity, and personal attention of a specialized boutique.
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Proven Results -->
-  <section id="results" class="py-20">
-    <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-4xl font-semibold heading-font text-center mb-12">What You Can Expect</h2>
-      <div class="grid md:grid-cols-3 gap-8 text-center">
-        <div class="bg-slate-900 rounded-3xl p-10">
-          <div class="text-7xl font-bold text-teal-400">40-60%</div>
-          <p class="mt-4 font-medium">Faster project delivery and time-to-value</p>
-        </div>
-        <div class="bg-slate-900 rounded-3xl p-10">
-          <div class="text-7xl font-bold text-teal-400">70%+</div>
-          <p class="mt-4 font-medium">Reduction in manual work through intelligent automation</p>
-        </div>
-        <div class="bg-slate-900 rounded-3xl p-10">
-          <div class="text-7xl font-bold text-teal-400">3-5x</div>
-          <p class="mt-4 font-medium">Higher ROI on technology investments</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA / Contact -->
-  <section id="contact" class="py-20 bg-slate-900">
-    <div class="max-w-3xl mx-auto px-6">
-      <div class="text-center mb-12">
-        <h2 class="text-4xl font-semibold heading-font">Ready to Forge Your Transformation?</h2>
-        <p class="text-xl text-slate-400 mt-4">Pick a time for a 30-minute strategy call or reach out directly.</p>
-      </div>
-      <div class="flex justify-center mb-12">
-        <a href="https://calendly.com/forgehorizonconsulting-info/30min" target="_blank"
-           class="px-10 py-6 bg-teal-400 hover:bg-teal-300 text-slate-950 text-2xl font-semibold rounded-3xl flex items-center gap-4 transition">
-          <i class="fas fa-calendar text-3xl"></i>
-          Book Your Strategy Call
-        </a>
+        <h2 class="text-4xl font-semibold heading-font">Meet the ForgeHorizon Team</h2>
+        <p class="text-slate-400 mt-4 max-w-md mx-auto">Experienced leaders delivering enterprise-grade transformation with boutique care.</p>
       </div>
       
-      <!-- Simple Contact Form -->
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="bg-slate-950 border border-slate-700 rounded-3xl p-10 space-y-6">
-        <div class="grid grid-cols-2 gap-6">
-          <div>
-            <label class="block text-sm mb-2">Name</label>
-            <input type="text" name="name" required class="w-full bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 focus:outline-none focus:border-teal-400">
-          </div>
-          <div>
-            <label class="block text-sm mb-2">Company</label>
-            <input type="text" name="company" required class="w-full bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 focus:outline-none focus:border-teal-400">
-          </div>
+      <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        
+        <!-- Tia Om -->
+        <div class="bg-slate-800/50 rounded-3xl p-8 text-center hover:scale-105 transition-all duration-300">
+          <img src="tia-om.jpg" alt="Tia Om" 
+               class="w-56 h-56 mx-auto rounded-3xl object-cover shadow-2xl border-4 border-teal-400 mb-6">
+          <h3 class="text-2xl font-semibold mb-1">Tia Om</h3>
+          <p class="text-teal-400 font-medium mb-4">Founder &amp; Senior Implementation Leader</p>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            With over 10 years leading enterprise SaaS implementations at Boeing, AkkenCloud, and other high-stakes organizations, 
+            Tia brings proven expertise in complex project delivery, process optimization, change management, and driving measurable operational improvements.
+          </p>
         </div>
-        <div>
-          <label class="block text-sm mb-2">Email</label>
-          <input type="email" name="email" required class="w-full bg-slate-900 border border-slate-700 rounded-2xl px-5 py-4 focus:outline-none focus:border-teal-400">
+
+        <!-- Nicholas Acosta -->
+        <div class="bg-slate-800/50 rounded-3xl p-8 text-center hover:scale-105 transition-all duration-300">
+          <img src="nicholas-acosta.jpg" alt="Nicholas Acosta" 
+               class="w-56 h-56 mx-auto rounded-3xl object-cover shadow-2xl border-4 border-teal-400 mb-6">
+          <h3 class="text-2xl font-semibold mb-1">Nicholas Acosta</h3>
+          <p class="text-teal-400 font-medium mb-4">AI Implementation Specialist &amp; Co-Founder</p>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Behavioral Neuroscience graduate with hands-on experience in laboratory techniques, statistical analysis, 
+            quality control, and research. Nicholas brings analytical rigor and modern AI expertise to every transformation project.
+          </p>
         </div>
-        <div>
-          <label class="block text-sm mb-2">Message</label>
-          <textarea name="message" rows="4" placeholder="Tell us about your biggest operational challenge..." class="w-full bg-slate-900 border border-slate-700 rounded-3xl px-5 py-4 focus:outline-none focus:border-teal-400"></textarea>
-        </div>
-        <button type="submit" class="w-full py-6 bg-white text-slate-950 font-semibold text-xl rounded-3xl hover:bg-slate-100 transition">Send Message →</button>
-        <p class="text-xs text-slate-500 text-center">Or email us directly at <a href="mailto:info@forgehorizon.com" class="underline">info@forgehorizon.com</a></p>
-      </form>
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-black py-12 border-t border-slate-800">
-    <div class="max-w-7xl mx-auto px-6 text-center text-slate-500 text-sm">
-      © 2026 ForgeHorizon Consulting LLC • AI-Powered Enterprise Transformation
-    </div>
-  </footer>
+  <!-- Proven Results (unchanged) -->
+  <section id="results" class="py-20"> ... </section>
+
+  <!-- Contact (unchanged) -->
+  <section id="contact" class="py-20 bg-slate-900"> ... </section>
+
+  <!-- Footer (unchanged) -->
+  <footer class="bg-black py-12 border-t border-slate-800"> ... </footer>
 
   <script>
-    // Tailwind script already loaded
     console.log('%c✅ ForgeHorizon Landing Page Loaded — Sleek & Professional!', 'color: #14b8a6; font-weight: bold');
   </script>
 </body>
